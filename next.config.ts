@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'interactive-examples.mdn.mozilla.net',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
 };
