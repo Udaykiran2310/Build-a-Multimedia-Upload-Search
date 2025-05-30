@@ -1,7 +1,7 @@
 
 "use client";
 
-import type * as z from "zod";
+import * as z from "zod"; // Changed from "import type * as z"
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import Link from "next/link";
